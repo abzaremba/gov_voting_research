@@ -1,6 +1,6 @@
 # Social Learning and Decision Making - relevance for voting mechanisms.
 
-These notes have been inspired and mostly informed by the podcast from the series "Complexity: Physics of Life", [Mirta Galesic on social learning & decision-making](https://open.spotify.com/episode/7m3lEMqnkEDgZcKesiepcn?si=eVM78EcYRJ6Hfd9o6oRHDw&nd=1&dlsi=3e3854f7ea6b476f). I summarise some of the most interesting concepts, provide bibliography for the research and point out their relevance to the voting mechanism design, or governance in general.
+These notes have been inspired and mostly informed by the podcast from the series "Complexity: Physics of Life", [Mirta Galesic on social learning & decision-making](https://open.spotify.com/episode/7m3lEMqnkEDgZcKesiepcn?si=eVM78EcYRJ6Hfd9o6oRHDw&nd=1&dlsi=3e3854f7ea6b476f). I summarise some of the most interesting concepts, provide bibliography for the research and point out their relevance to the voting mechanism design, or governance in general. This is early draft, I plan to smooth it out later...
 
 
 ## Areas of relevance:
@@ -38,19 +38,17 @@ How can one **correct for this handicap**?
 > What's the best way to approach a problem and decision-making if we don't know the complexity of the problem in advance?
 
 Three elements to consider:
-* Rule used to make decision
-* Network structure, especially: how many diverse opinions are in the person’s network
-* Problem being solved.
+1. Rule used to make decision
+2. Network structure, especially: how many diverse opinions are in the person’s network
+3. Problem being solved.
 
 Examples:
 
-* If there is a simple problem, it might be the best to follow the opinion of a group member who currently has best solution. But if a problem is complex, this strategy might lead to choosing suboptimal solution. 
+* If there is a simple problem, it might be the best to use a simple decision rule that says ti follow the opinion of a group member who currently has best solution. But if a problem is complex, this strategy might lead to choosing suboptimal solution. 
 * If there is a complex problem, for example writing a scientific paper, arranging a political system, etc. then following many voices migh be the best way to arrive at an optimal solution. 
+* However if a solution exists and is known, or is easy to find, diversity of opinions can be a problem here. **Controversial issue**: once a society has come to a solution to a long standing problem, for example a scientific fact, then inviting people to have opinions about it can be detrimental.
 
-* However if a solution exists and is known, or is easy to find, diversity of opinions can be a problem here.
-Controversial issue: once a society has come to a solution to a long standing problem, for example a scientific fact, then inviting people to have opinions about it can be detrimental.
-
-The above is supposed to exemplify that there could be different decision rules and that how useful they are will be affected by the social networks that are relevant here.
+The above is supposed to demonstrate that different rules can be needed for different problems, making it difficult to choose a good decision rool in advance. The second aspect that might not be clear in the examples above, but that's of a gret relevance here that the decision rules and their effectiveness will be affected by the social networks at play.
 
 
 > Idea: if you don’t know what to do, then to make a decision go for a small group… But note that you get benefit from a small group even if it’s chosen at random.
@@ -62,6 +60,18 @@ Now, there are different stages of the decision-making process.
 1. The first step is to gather information, and here we can profit from large groups, diverse opinions and experiences. 
 2. The second step is making the actual decision, where arguably a smaller group is better. However, the assumption is that the decision making group has collected all possible information on the problem, and so that at least in the longer run we’re confident that this group is making decision better than random. (Note, if the decision making group is ignorant, then it’s either best to have a dictator, or as large a group as possible).
 
+
+### Bias due to social network reasons.
+
+There's quite a lot of research about behavioural biases and how they affect people's decision and potentially prevent them from acting rationally. On the other hand games theory and mechanism design often make strong assumptions of rationality or bounded rationality.
+
+This interesting piece of research talk about how social network can affect peoples' decisions, and investigates forming or changing beliefs. 
+
+Science communicators, typically, when presenting new piece of scientific knowledge to people would concentrate on providing facts, often devoid of context. Girvan explains that the context is vitally important, and it is what allows people to place the new piece of information with regards to two types of networks: social networks (what we believe other people in our network think about the issue), and semantic networks (all kinds of values that are related to the issue).
+
+Being wrong about something can be less damaging than losing the social network. And on the other hand, if a new piece of knowledge is in dissonance with person’s values and moral beliefs, it will be difficult to accept. So convincing a person to accept a new piece of knowledge, or to change their belief on an issue, is likely to require resolving these moral or social concerns.
+
+Example: a person whose social network consistd of people strongly opposing covid vaccination was very likely to not want to get the vaccination themselves as well. 
 
 ## Bibliography:
 
@@ -82,3 +92,8 @@ Michelle Girvan on reservoir computing: adding a little chaos to a ML algorithm 
 “Stabilizing machine learning prediction of dynamics: Novel noise-inspired regularization tested with reservoir computing”
 Alexander Wikner, Joseph Harvey, Michelle Girvan, Brian R. Hunt, Andrew Pomerance, Thomas Antonsen, Edward Ott
 https://www.sciencedirect.com/science/article/pii/S0893608023006159
+
+
+Science Communication in Light of Moral and Social Concerns: Testing a Statistical Physics Model of Belief Change
+Tamara van der Does, Daniel L. Stein, Nina Fedoroff, and Mirta Galesic
+https://osf.io/preprints/osf/zs7dq
